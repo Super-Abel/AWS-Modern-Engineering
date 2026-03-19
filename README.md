@@ -4,10 +4,14 @@ Ce dépôt regroupe l'ensemble des travaux pratiques (TP) réalisés dans le cad
 
 ## 📁 Structure du Projet
 
-- **`ImageProcessor/`** : Cœur du projet Lambda .NET.
-  - `FunctionTP5.cs` : Analyse d'images via **Amazon Rekognition** déclenchée par S3 (TP 5).
-  - `GetImageLabels.cs` : API REST sécurisée via **API Gateway** & **Cognito** pour lire les résultats (TP 6).
-- **`S3Manager/`** : Manipulation programmatique de **S3** et **DynamoDB** (TP 3 & 4).
+- **TP 1** : Mise en place de l'environnement (Installation AWS CLI, SDK .NET 8).
+- **TP 2** : Sécurité & IAM (Création d'utilisateurs, groupes et politiques de confiance).
+- **`S3Manager/`** : TP 3 & TP 4.
+  - CRUD programmatique S3 et DynamoDB.
+  - Première Lambda déclenchée par S3.
+- **`ImageProcessor/`** : TP 5 & TP 6.
+  - `FunctionTP5.cs` : Analyse d'images via **Amazon Rekognition** (TP 5).
+  - `GetImageLabels.cs` : API REST sécurisée via **API Gateway** & **Cognito** (TP 6).
 - **`Documentation/`** : Énoncés des TP (PDF) et captures d'écran des tests réussis.
 
 ## 🚀 Déploiement des Lambdas
