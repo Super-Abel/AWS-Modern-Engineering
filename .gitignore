@@ -1,0 +1,13 @@
+bin/
+obj/
+*.zip
+*.old
+*.oldtp5
+*.msi
+.vs/
+.idea/
+.vscode/
+dev-user_accessKeys.csv
+logs.json
+temp.json
+*.tmp

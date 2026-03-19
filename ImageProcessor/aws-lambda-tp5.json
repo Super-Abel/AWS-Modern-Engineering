@@ -1,0 +1,10 @@
+{
+  "profile": "",
+  "region": "us-east-1",
+  "configuration": "Release",
+  "function-runtime": "dotnet8",
+  "function-memory-size": 512,
+  "function-timeout": 30,
+  "function-handler": "ImageProcessor::ImageProcessor.FunctionTP5::FunctionHandler",
+  "function-name": "ImageProcessor"
+}

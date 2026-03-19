@@ -1,0 +1,9 @@
+bin/
+obj/
+*.zip
+*.old
+.vs/
+.idea/
+.vscode/
+/bin
+/obj
