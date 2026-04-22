@@ -10,14 +10,14 @@ using Amazon.DynamoDBv2.Model;
 
 namespace ImageProcessor;
 
-public class FunctionTP5
+public class ImageAnalysisFunction
 {
     private IAmazonS3 S3Client { get; }
     private IAmazonRekognition RekognitionClient { get; }
     private IAmazonDynamoDB DynamoDBClient { get; }
     private const string TableName = "ImageAnalysisResults";
 
-    public FunctionTP5()
+    public ImageAnalysisFunction()
     {
         // Forçage de la région sur Virginie (us-east-1)
         var region = Amazon.RegionEndpoint.USEast1;

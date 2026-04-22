@@ -1,10 +1,10 @@
-﻿
-//TP2
+
+// Prototype initial S3
 // using Amazon.S3;
 // using Amazon.S3.Model;
 
 // var client = new AmazonS3Client(); 
-// var bucketName = "tp-s3-" + Guid.NewGuid().ToString();
+// var bucketName = "project-s3-" + Guid.NewGuid().ToString();
 
 //     await client.PutBucketAsync(bucketName);
 //     Console.WriteLine($"Bucket {bucketName} cree!");
@@ -17,7 +17,7 @@
 //     };
 //         await client.PutObjectAsync(request);
 
-//TP3
+// Gestion DynamoDB
 using Amazon.DynamoDBv2;
 using Amazon.DynamoDBv2.DataModel;
 

@@ -2,7 +2,7 @@ bin/
 obj/
 *.zip
 *.old
-*.oldtp5
+*.oldimageanalysis
 *.msi
 .vs/
 .idea/
@@ -11,3 +11,5 @@ dev-user_accessKeys.csv
 logs.json
 temp.json
 *.tmp
+# Documentation
+Documentation/
